@@ -1,0 +1,2899 @@
+[
+  {
+    "article_id": "A001",
+    "title_original": "The Humanoid Hardware Value Chain: Can the European Manufacturing Industry Capitalize on the Humanoid Momentum?",
+    "title_english": "The Humanoid Hardware Value Chain: Can the European Manufacturing Industry Capitalize on the Humanoid Momentum?",
+    "publisher": "Fraunhofer IPA; P3",
+    "author": "Vincent Bezold; Jannes Moehlenkamp; Simon Schmidt; Joshua Beck; Marco Dargel; Thomas Ertener",
+    "publication_date": "2026-02-26",
+    "url": "https://www.ipa.fraunhofer.de/content/dam/ipa/de/documents/Publikationen/Studien/260219_Humanoid_Value_Chain_final.pdf",
+    "language": "English",
+    "source_type": "industry report",
+    "geographic_scope": [
+      "Global",
+      "Europe",
+      "China",
+      "Japan",
+      "South Korea",
+      "United States"
+    ],
+    "quality_assessment": {
+      "depth_score": 5,
+      "data_quality_score": 4,
+      "primary_source_score": 4,
+      "reason_selected": "Detailed component comparisons and an explicitly bounded hardware-cost model."
+    },
+    "article_summary": "Examines component maturity, manufacturing trade-offs and European opportunities. Its European low-volume/prototype cost model excludes assembly and software; supplier tables are not evidence of customer contracts.",
+    "supply_chain_components": {
+      "motors": [
+        {
+          "player": "maxon",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "Switzerland"
+          },
+          "role_in_supply_chain": "Coreless precision motors",
+          "significant_events": [],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Listed for coreless motors suitable for compact, precise actuation; power-density and durability trade-offs matter."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Section 3.2, Table 6, printed p.20",
+          "confidence": "high"
+        }
+      ],
+      "actuators": [],
+      "precision_reducers": [
+        {
+          "player": "WITTENSTEIN",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "Germany"
+          },
+          "role_in_supply_chain": "Planetary reducers",
+          "significant_events": [],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Listed among planetary-transmission suppliers. Architecture selection trades load capability against packaging and precision."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Section 3.3, Table 7, printed p.22",
+          "confidence": "high"
+        },
+        {
+          "player": "Bonsystems",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "South Korea"
+          },
+          "role_in_supply_chain": "Cycloidal reducers",
+          "significant_events": [],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Listed among cycloidal-reducer suppliers; inclusion does not establish humanoid production volumes."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Section 3.3, Table 7, printed p.22",
+          "confidence": "high"
+        }
+      ],
+      "bearings": [],
+      "ball_and_roller_screws": [],
+      "encoders": [],
+      "sensors": [],
+      "dexterous_hands": [],
+      "batteries_and_power": [
+        {
+          "player": "CATL",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Chinese",
+            "country": "China"
+          },
+          "role_in_supply_chain": "Lithium-ion battery technology",
+          "significant_events": [],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Identified as a relevant battery supplier; not a disclosed humanoid supply contract."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Section 3.4, Table 8, printed p.24",
+          "confidence": "high"
+        }
+      ],
+      "semiconductors_and_compute": [],
+      "controllers_and_electronics": [],
+      "software_and_ai": [],
+      "manufacturing_and_assembly": [],
+      "full_robot_integration": [],
+      "machine_tools": [],
+      "testing_simulation_and_data": [],
+      "other": []
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn32view8\"}}",
+    "research_metadata": {
+      "research_cutoff": "2026-09-23",
+      "source_count": 34,
+      "language_counts": {
+        "English": 24,
+        "Chinese": 10
+      },
+      "coverage_status": "Substantial multilingual research; direct Google and Baidu search-result access was unavailable, so the requested engine coverage is incomplete.",
+      "search_method": "English and Chinese searches through the available web-search service, followed by original documents or identified filing mirrors. Included simplified and traditional Chinese. Direct Baidu indexing of individual selected URLs was not verified.",
+      "quality_scale": "1–5 for each score; 5 is strongest. Ordered primarily by research usefulness and information density, not publication recency.",
+      "interpretation_rules": "Company disclosures remain company-reported. Forecasts, targets, samples, orders, capacity and shipments are distinct. Unknown dates use null. Empty arrays mean no extracted supported entry, not proof that the source never mentions the segment.",
+      "classification_rule": "Chinese means mainland-China headquarters. Parent ownership is separate; Taiwan is Non-Chinese under the requested definition.",
+      "taxonomy_note": "Raw/specialty materials and structural components use other, as the supplied schema has no separate columns for them.",
+      "limitations": "Public sources rarely support defensible humanoid-component market shares. Percentages lacking a clear year, geography, denominator or metric were excluded. Vendor technical claims are not independent validation; robot shipment definitions vary.",
+      "verification_method": "PDF text inspection supplied page-level evidence; inaccessible body content was excluded from numerical extraction. JSON syntax, required fields, classifications, score ranges and share metadata were checked.",
+      "download": "[humanoid_robotics_supply_chain_sources.json](sandbox:/workspace/scratch/0f278bc6984f/humanoid_robotics_supply_chain_sources.json)"
+    }
+  },
+  {
+    "article_id": "A002",
+    "title_original": "Turning humanoid supply chain constraints into billion-dollar wins",
+    "title_english": "Turning humanoid supply chain constraints into billion-dollar wins",
+    "publisher": "McKinsey & Company",
+    "author": "Ani Kelkar; Christian Jansen; Erik Sparre; Mark Patel; Mikael Robertson; Alexander Rauch; Robert Hess",
+    "publication_date": "2026-04-17",
+    "url": "https://www.mckinsey.com/industries/industrials/our-insights/turning-humanoid-supply-chain-constraints-into-billion-dollar-wins",
+    "language": "English",
+    "source_type": "industry report",
+    "geographic_scope": [
+      "Global",
+      "China",
+      "Europe",
+      "United States"
+    ],
+    "quality_assessment": {
+      "depth_score": 5,
+      "data_quality_score": 4,
+      "primary_source_score": 3,
+      "reason_selected": "Cross-component analysis of cost, standardization and production bottlenecks."
+    },
+    "article_summary": "Explains why actuation and tactile sensing can constrain scale despite mature compute and battery industries. BOM percentages are cost composition, not supplier market shares.",
+    "supply_chain_components": {
+      "motors": [
+        {
+          "player": "maxon",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "Switzerland"
+          },
+          "role_in_supply_chain": "High-end robotics motors",
+          "significant_events": [],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "The authors identify precision-motor capacity as a scaling constraint for industrial-focused suppliers."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Supply-chain bottlenecks discussion, paragraph naming Maxon and Kollmorgen",
+          "confidence": "medium"
+        },
+        {
+          "player": "Kollmorgen",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "United States"
+          },
+          "role_in_supply_chain": "High-end robotics motors",
+          "significant_events": [],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Higher payload and dynamic-performance requirements increase exposure to precision linear-motion components."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Same paragraph; hybrid rotary/linear actuation discussion",
+          "confidence": "medium"
+        }
+      ],
+      "actuators": [],
+      "precision_reducers": [],
+      "bearings": [],
+      "ball_and_roller_screws": [],
+      "encoders": [],
+      "sensors": [],
+      "dexterous_hands": [
+        {
+          "player": "Tesla",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "United States"
+          },
+          "role_in_supply_chain": "Vertically integrated humanoid manipulation",
+          "significant_events": [],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Used to illustrate miniaturized actuation, tactile-feedback and low-latency-control integration challenges; no supplier contract inferred."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Sidebar: Why hands are critical",
+          "confidence": "medium"
+        }
+      ],
+      "batteries_and_power": [],
+      "semiconductors_and_compute": [],
+      "controllers_and_electronics": [],
+      "software_and_ai": [],
+      "manufacturing_and_assembly": [],
+      "full_robot_integration": [],
+      "machine_tools": [],
+      "testing_simulation_and_data": [],
+      "other": []
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn33view8\"}}"
+  },
+  {
+    "article_id": "A003",
+    "title_original": "Humanoids at Schaeffler",
+    "title_english": "Humanoids at Schaeffler",
+    "publisher": "Schaeffler AG",
+    "author": "Andreas Schick",
+    "publication_date": "2026",
+    "url": "https://www.schaeffler.com/remotemedien/media/_shared_media_rwd/08_investor_relations/presentations/20260205_humanoids_at_schaeffler.pdf",
+    "language": "English",
+    "source_type": "other",
+    "geographic_scope": [
+      "Germany",
+      "Europe",
+      "China",
+      "United States",
+      "Global"
+    ],
+    "quality_assessment": {
+      "depth_score": 4,
+      "data_quality_score": 4,
+      "primary_source_score": 5,
+      "reason_selected": "February 2026 investor presentation gives actuator architecture and order-stage evidence."
+    },
+    "article_summary": "Explains Schaeffler's integrated component strategy and production-process capabilities; promotional market-share aspirations are excluded.",
+    "supply_chain_components": {
+      "motors": [],
+      "actuators": [
+        {
+          "player": "Schaeffler",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "Germany"
+          },
+          "role_in_supply_chain": "Integrated linear and rotary actuators",
+          "significant_events": [],
+          "market_share_or_scale": [
+            {
+              "value": "32 sample orders and 1 serial-production order; company reported",
+              "metric": "other",
+              "market_definition": "Company humanoid-component order pipeline as of February; not customers, robots shipped or market share",
+              "geography": "Global order pipeline",
+              "year": "2026",
+              "source_wording": "32 sample orders"
+            }
+          ],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Linear modules combine a motor, screw transmission, bearings, encoder, force sensing and servo electronics."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Slides 8 and 11",
+          "confidence": "high"
+        }
+      ],
+      "precision_reducers": [],
+      "bearings": [],
+      "ball_and_roller_screws": [],
+      "encoders": [],
+      "sensors": [],
+      "dexterous_hands": [],
+      "batteries_and_power": [],
+      "semiconductors_and_compute": [],
+      "controllers_and_electronics": [],
+      "software_and_ai": [],
+      "manufacturing_and_assembly": [],
+      "full_robot_integration": [],
+      "machine_tools": [
+        {
+          "player": "Schaeffler",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "Germany"
+          },
+          "role_in_supply_chain": "In-house precision-production processes",
+          "significant_events": [],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Identifies turning, grinding and honing capabilities relevant to industrializing component production."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Slide 9",
+          "confidence": "high"
+        }
+      ],
+      "testing_simulation_and_data": [],
+      "other": []
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn19view1\"}}"
+  },
+  {
+    "article_id": "A004",
+    "title_original": "AgiBot World Colosseo: A Large-scale Manipulation Platform for Scalable and Intelligent Embodied Systems",
+    "title_english": "AgiBot World Colosseo: A Large-scale Manipulation Platform for Scalable and Intelligent Embodied Systems",
+    "publisher": "arXiv",
+    "author": "AgiBot-World-Contributors; Qingwen Bu; Jisong Cai; et al.",
+    "publication_date": "2025-03-09",
+    "url": "https://arxiv.org/abs/2503.06669",
+    "language": "English",
+    "source_type": "academic paper",
+    "geographic_scope": [
+      "China",
+      "Global"
+    ],
+    "quality_assessment": {
+      "depth_score": 5,
+      "data_quality_score": 4,
+      "primary_source_score": 5,
+      "reason_selected": "Original dataset and policy research with reproducible technical detail; preprint rather than independent commercial validation."
+    },
+    "article_summary": "Analyzes standardized robot-data collection and generalist manipulation policies; latest listed revision is August 4, 2025.",
+    "supply_chain_components": {
+      "motors": [],
+      "actuators": [],
+      "precision_reducers": [],
+      "bearings": [],
+      "ball_and_roller_screws": [],
+      "encoders": [],
+      "sensors": [],
+      "dexterous_hands": [],
+      "batteries_and_power": [],
+      "semiconductors_and_compute": [],
+      "controllers_and_electronics": [],
+      "software_and_ai": [
+        {
+          "player": "AgiBot",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Chinese",
+            "country": "China"
+          },
+          "role_in_supply_chain": "Genie Operator-1 generalist manipulation policy",
+          "significant_events": [],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Uses latent action representations to improve utilization of heterogeneous robot data; benchmark results are not industrial uptime evidence."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Abstract; GO-1 architecture and experiments",
+          "confidence": "high"
+        }
+      ],
+      "manufacturing_and_assembly": [],
+      "full_robot_integration": [],
+      "machine_tools": [],
+      "testing_simulation_and_data": [
+        {
+          "player": "AgiBot",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Chinese",
+            "country": "China"
+          },
+          "role_in_supply_chain": "Robot demonstration-data collection and verification",
+          "significant_events": [],
+          "market_share_or_scale": [
+            {
+              "value": "More than 1 million trajectories across 217 tasks",
+              "metric": "other",
+              "market_definition": "AgiBot World research dataset; data volume, not robot shipments or market share",
+              "geography": "China-based collection; global research release",
+              "year": "2025",
+              "source_wording": "over 1 million trajectories"
+            }
+          ],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Standardized collection incorporates human verification and supports diverse manipulation settings."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Abstract; Section III, AgiBot World dataset",
+          "confidence": "high"
+        }
+      ],
+      "other": []
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn36view6\"}}"
+  },
+  {
+    "article_id": "A005",
+    "title_original": "Gemini Robotics 1.5: Pushing the Frontier of Generalist Robots with Advanced Embodied Reasoning, Thinking, and Motion Transfer",
+    "title_english": "Gemini Robotics 1.5: Pushing the Frontier of Generalist Robots with Advanced Embodied Reasoning, Thinking, and Motion Transfer",
+    "publisher": "arXiv",
+    "author": "Gemini Robotics Team; et al.",
+    "publication_date": "2025-10-02",
+    "url": "https://arxiv.org/abs/2510.03342",
+    "language": "English",
+    "source_type": "academic paper",
+    "geographic_scope": [
+      "United Kingdom",
+      "United States",
+      "Global"
+    ],
+    "quality_assessment": {
+      "depth_score": 5,
+      "data_quality_score": 4,
+      "primary_source_score": 5,
+      "reason_selected": "Original model architecture and evaluation research; relevant to the software and data layers."
+    },
+    "article_summary": "Describes multi-embodiment learning and embodied reasoning. Latest listed revision is November 28, 2025; benchmark leadership is not a commercial-market-share measure.",
+    "supply_chain_components": {
+      "motors": [],
+      "actuators": [],
+      "precision_reducers": [],
+      "bearings": [],
+      "ball_and_roller_screws": [],
+      "encoders": [],
+      "sensors": [],
+      "dexterous_hands": [],
+      "batteries_and_power": [],
+      "semiconductors_and_compute": [],
+      "controllers_and_electronics": [],
+      "software_and_ai": [
+        {
+          "player": "Google DeepMind",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "United Kingdom"
+          },
+          "role_in_supply_chain": "Vision-language-action and embodied-reasoning models",
+          "significant_events": [
+            {
+              "date": "2025-10-02",
+              "event": "Published the Gemini Robotics 1.5 technical report.",
+              "significance": "Documents the model family and evaluation approach."
+            }
+          ],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [
+            "Evaluates models on Apptronik's Apollo humanoid; evaluation is not a supply contract."
+          ],
+          "technical_or_strategic_information": [
+            "Motion Transfer learns from heterogeneous robot embodiments.",
+            "Combines action generation with natural-language reasoning and spatial/task-progress understanding.",
+            "Classification follows the UK-based organization, not its US parent.",
+            "Section 3 notes that some baseline comparisons use different training-data volumes."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Abstract; Section 3 and Appendix B, including Apollo evaluation",
+          "confidence": "high"
+        }
+      ],
+      "manufacturing_and_assembly": [],
+      "full_robot_integration": [],
+      "machine_tools": [],
+      "testing_simulation_and_data": [],
+      "other": []
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn36view5\"}}"
+  },
+  {
+    "article_id": "A006",
+    "title_original": "Embodied AI: China’s ambitious path to transform its robotics industry",
+    "title_english": "Embodied AI: China’s ambitious path to transform its robotics industry",
+    "publisher": "MERICS",
+    "author": "Wendy Chang; Rebecca Arcesati; Altynay Junusova",
+    "publication_date": "2026-04-30",
+    "url": "https://merics.org/en/report/embodied-ai-chinas-ambitious-path-transform-its-robotics-industry",
+    "language": "English",
+    "source_type": "industry report",
+    "geographic_scope": [
+      "China",
+      "Europe",
+      "Japan",
+      "United States",
+      "Global"
+    ],
+    "quality_assessment": {
+      "depth_score": 5,
+      "data_quality_score": 3,
+      "primary_source_score": 3,
+      "reason_selected": "Substantive policy-and-industry analysis with linked evidence and explicit capability constraints."
+    },
+    "article_summary": "Distinguishes industrial robots, humanoids and embodied AI while examining China's hardware advantages and foreign software dependencies.",
+    "supply_chain_components": {
+      "motors": [],
+      "actuators": [],
+      "precision_reducers": [],
+      "bearings": [],
+      "ball_and_roller_screws": [],
+      "encoders": [],
+      "sensors": [],
+      "dexterous_hands": [],
+      "batteries_and_power": [
+        {
+          "player": "GAC",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Chinese",
+            "country": "China"
+          },
+          "role_in_supply_chain": "EV-to-humanoid battery-system adaptation",
+          "significant_events": [],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Uses GoMate as an example of transferring electric-vehicle battery capabilities into robotics; no cell supplier inferred."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Section on developing smart robots; paragraph discussing GoMate",
+          "confidence": "medium"
+        }
+      ],
+      "semiconductors_and_compute": [],
+      "controllers_and_electronics": [],
+      "software_and_ai": [],
+      "manufacturing_and_assembly": [],
+      "full_robot_integration": [],
+      "machine_tools": [],
+      "testing_simulation_and_data": [
+        {
+          "player": "Galbot",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Chinese",
+            "country": "China"
+          },
+          "role_in_supply_chain": "Synthetic robot-manipulation data",
+          "significant_events": [],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Synthetic data and simulation complement real-world robot data; the report highlights dependency on foreign computing ecosystems."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Discussion of synthetic data, DexGraspNet and NVIDIA tools",
+          "confidence": "medium"
+        }
+      ],
+      "other": []
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn6view6\"}}"
+  },
+  {
+    "article_id": "A007",
+    "title_original": "江苏恒立液压股份有限公司2025年年度报告",
+    "title_english": "Jiangsu Hengli Hydraulic Co., Ltd. 2025 Annual Report",
+    "publisher": "Jiangsu Hengli Hydraulic; filing mirrored by Sina Finance",
+    "author": "Jiangsu Hengli Hydraulic",
+    "publication_date": "2026-04-21",
+    "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12118901",
+    "language": "Chinese (Simplified)",
+    "source_type": "company filing",
+    "geographic_scope": [
+      "China",
+      "Global"
+    ],
+    "quality_assessment": {
+      "depth_score": 4,
+      "data_quality_score": 5,
+      "primary_source_score": 5,
+      "reason_selected": "Distinguishes established ball-screw capacity from early roller-screw commercialization."
+    },
+    "article_summary": "Reports linear-motion expansion without equating ball-screw capacity to humanoid roller-screw output.",
+    "supply_chain_components": {
+      "motors": [],
+      "actuators": [],
+      "precision_reducers": [],
+      "bearings": [],
+      "ball_and_roller_screws": [
+        {
+          "player": "Hengli Hydraulic",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Chinese",
+            "country": "China"
+          },
+          "role_in_supply_chain": "Precision ball screws and planetary roller screws",
+          "significant_events": [
+            {
+              "date": "2025",
+              "event": "Planetary roller screws progressed through sample delivery and initial production.",
+              "significance": "Commercialization milestone, not evidence of mature high-volume output."
+            }
+          ],
+          "market_share_or_scale": [
+            {
+              "value": "70,000 sets/year; company-reported capacity",
+              "metric": "production capacity",
+              "market_definition": "Precision ground ball screws, all applications; not planetary roller screws or humanoid-only output",
+              "geography": "China",
+              "year": "2025",
+              "source_wording": "年产精密磨削滚珠丝杠7万套"
+            }
+          ],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "The same project also manufactures precision linear guides; robot-customer identities are not disclosed in the cited passage."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Section III, management discussion, linear-drive project paragraph",
+          "confidence": "high"
+        }
+      ],
+      "encoders": [],
+      "sensors": [],
+      "dexterous_hands": [],
+      "batteries_and_power": [],
+      "semiconductors_and_compute": [],
+      "controllers_and_electronics": [],
+      "software_and_ai": [],
+      "manufacturing_and_assembly": [],
+      "full_robot_integration": [],
+      "machine_tools": [],
+      "testing_simulation_and_data": [],
+      "other": []
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn24view0\"}}"
+  },
+  {
+    "article_id": "A008",
+    "title_original": "江西金力永磁科技股份有限公司2025年年度报告全文",
+    "title_english": "JL MAG Rare-Earth Co., Ltd. 2025 Annual Report",
+    "publisher": "JL MAG Rare-Earth",
+    "author": "JL MAG Rare-Earth",
+    "publication_date": "2026-03-26",
+    "url": "https://www.jlmag.com.cn/uploads/soft/20260330/1774844219812095.pdf",
+    "language": "Chinese (Simplified)",
+    "source_type": "company filing",
+    "geographic_scope": [
+      "China",
+      "Global"
+    ],
+    "quality_assessment": {
+      "depth_score": 4,
+      "data_quality_score": 5,
+      "primary_source_score": 5,
+      "reason_selected": "Connects upstream magnets, named material suppliers and early robot-rotor deliveries."
+    },
+    "article_summary": "Separates company-wide magnetic-material capacity from its much earlier-stage embodied-robot rotor business.",
+    "supply_chain_components": {
+      "motors": [
+        {
+          "player": "JL MAG Rare-Earth",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Chinese",
+            "country": "China"
+          },
+          "role_in_supply_chain": "Embodied-robot motor rotors",
+          "significant_events": [
+            {
+              "date": "2025",
+              "event": "Reported small-batch robot motor-rotor deliveries.",
+              "significance": "Documents actual early deliveries rather than only a capacity proposal."
+            }
+          ],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [
+            "Technology-company development partner is unnamed; no identity inferred."
+          ],
+          "technical_or_strategic_information": [],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Printed p.10, principal business",
+          "confidence": "high"
+        }
+      ],
+      "actuators": [],
+      "precision_reducers": [],
+      "bearings": [],
+      "ball_and_roller_screws": [],
+      "encoders": [],
+      "sensors": [],
+      "dexterous_hands": [],
+      "batteries_and_power": [],
+      "semiconductors_and_compute": [],
+      "controllers_and_electronics": [],
+      "software_and_ai": [],
+      "manufacturing_and_assembly": [],
+      "full_robot_integration": [],
+      "machine_tools": [],
+      "testing_simulation_and_data": [],
+      "other": [
+        {
+          "player": "JL MAG Rare-Earth",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Chinese",
+            "country": "China"
+          },
+          "role_in_supply_chain": "Raw and specialty materials: high-performance rare-earth permanent magnets",
+          "significant_events": [],
+          "market_share_or_scale": [
+            {
+              "value": "40,000 tonnes/year; company-reported capacity",
+              "metric": "production capacity",
+              "market_definition": "High-performance rare-earth permanent magnets across all end markets, not humanoid-specific capacity",
+              "geography": "China",
+              "year": "2025",
+              "source_wording": "高性能稀土永磁产能达到4万吨/年"
+            }
+          ],
+          "customers_or_supplier_relationships": [
+            "Names China Northern Rare Earth Group and China Rare Earth Group as raw-material suppliers."
+          ],
+          "technical_or_strategic_information": [
+            "Customer qualification and reliable raw-material sourcing are important delivery constraints."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Printed pp.10 and 20; principal business and supply-security sections",
+          "confidence": "high"
+        }
+      ]
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn31view0\"}}"
+  },
+  {
+    "article_id": "A009",
+    "title_original": "奥比中光科技集团股份有限公司2025年年度报告",
+    "title_english": "Orbbec Inc. 2025 Annual Report",
+    "publisher": "Orbbec; filing mirrored by Eastmoney",
+    "author": "Orbbec",
+    "publication_date": "2026-04-20",
+    "url": "https://pdf.dfcfw.com/pdf/H2_AN202604191821320724_1.pdf",
+    "language": "Chinese (Simplified)",
+    "source_type": "company filing",
+    "geographic_scope": [
+      "China",
+      "France",
+      "Europe",
+      "United States",
+      "Global"
+    ],
+    "quality_assessment": {
+      "depth_score": 4,
+      "data_quality_score": 5,
+      "primary_source_score": 5,
+      "reason_selected": "Names a foreign humanoid customer and an explicitly validated compute-platform integration."
+    },
+    "article_summary": "Documents cross-border depth-camera adoption and the engineering requirements of wrist-mounted robot vision.",
+    "supply_chain_components": {
+      "motors": [],
+      "actuators": [],
+      "precision_reducers": [],
+      "bearings": [],
+      "ball_and_roller_screws": [],
+      "encoders": [],
+      "sensors": [
+        {
+          "player": "Orbbec",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Chinese",
+            "country": "China"
+          },
+          "role_in_supply_chain": "Stereo and depth cameras for robot perception",
+          "significant_events": [
+            {
+              "date": "2025",
+              "event": "Gemini 330-series cameras completed Jetson Thor adaptation and validation.",
+              "significance": "Platform compatibility, not evidence that NVIDIA purchases cameras."
+            }
+          ],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [
+            "Pollen Robotics' Reachy 2 uses Gemini 330-series/Gemini 336 cameras.",
+            "NVIDIA Jetson/Isaac ecosystem integration is explicitly described."
+          ],
+          "technical_or_strategic_information": [
+            "Gemini 305 targets wrist vision; the report distinguishes depth/color stream configuration and durable high-motion connectivity."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Printed pp.23, 26–27; international ecosystem and product sections",
+          "confidence": "high"
+        }
+      ],
+      "dexterous_hands": [],
+      "batteries_and_power": [],
+      "semiconductors_and_compute": [],
+      "controllers_and_electronics": [],
+      "software_and_ai": [],
+      "manufacturing_and_assembly": [],
+      "full_robot_integration": [],
+      "machine_tools": [],
+      "testing_simulation_and_data": [],
+      "other": []
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn30view2\"}}"
+  },
+  {
+    "article_id": "A010",
+    "title_original": "上海鸣志电器股份有限公司2025年年度报告",
+    "title_english": "Shanghai MOONS' Electric Co., Ltd. 2025 Annual Report",
+    "publisher": "Shanghai MOONS' Electric; filing mirrored by Sina Finance",
+    "author": "Shanghai MOONS' Electric",
+    "publication_date": "2026-04-25",
+    "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12191548&stockid=603728",
+    "language": "Chinese (Simplified)",
+    "source_type": "company filing",
+    "geographic_scope": [
+      "China",
+      "Vietnam",
+      "United States",
+      "Switzerland",
+      "Global"
+    ],
+    "quality_assessment": {
+      "depth_score": 4,
+      "data_quality_score": 4,
+      "primary_source_score": 5,
+      "reason_selected": "Useful motor-architecture detail and explicitly timed capacity expansion."
+    },
+    "article_summary": "Describes robot-related motor and drive growth across multiple robot types, not just humanoids.",
+    "supply_chain_components": {
+      "motors": [
+        {
+          "player": "MOONS' Electric",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Chinese",
+            "country": "China"
+          },
+          "role_in_supply_chain": "Precision motors and motor-drive systems",
+          "significant_events": [
+            {
+              "date": "2026",
+              "event": "Vietnam slotless-motor capacity expected to enter operation in Q4 2026.",
+              "significance": "Forward-looking capacity expansion; not verified operational output."
+            }
+          ],
+          "market_share_or_scale": [
+            {
+              "value": "Approximately 22% year-on-year revenue growth; company reported",
+              "metric": "other",
+              "market_definition": "Company sales into robotics applications, including industrial, service, humanoid and mobile robots; not market share",
+              "geography": "Global company sales",
+              "year": "2025",
+              "source_wording": "营业收入同比增长约22%"
+            }
+          ],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Describes high-power-density brushless slotless motors and hand/joint applications.",
+            "Customers in the cited robotics discussion are not individually identified."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Section III, control motors and drive systems in robotics",
+          "confidence": "high"
+        }
+      ],
+      "actuators": [],
+      "precision_reducers": [],
+      "bearings": [],
+      "ball_and_roller_screws": [],
+      "encoders": [],
+      "sensors": [],
+      "dexterous_hands": [],
+      "batteries_and_power": [],
+      "semiconductors_and_compute": [],
+      "controllers_and_electronics": [],
+      "software_and_ai": [],
+      "manufacturing_and_assembly": [],
+      "full_robot_integration": [],
+      "machine_tools": [],
+      "testing_simulation_and_data": [],
+      "other": []
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn21view3\"}}"
+  },
+  {
+    "article_id": "A011",
+    "title_original": "宁波柯力传感科技股份有限公司2025年年度报告",
+    "title_english": "Ningbo Keli Sensing Technology Co., Ltd. 2025 Annual Report",
+    "publisher": "Keli Sensing; filing mirrored by Sina Finance",
+    "author": "Keli Sensing",
+    "publication_date": "2026-04-28",
+    "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12209189",
+    "language": "Chinese (Simplified)",
+    "source_type": "company filing",
+    "geographic_scope": [
+      "China"
+    ],
+    "quality_assessment": {
+      "depth_score": 4,
+      "data_quality_score": 4,
+      "primary_source_score": 5,
+      "reason_selected": "Provides an actual robot-sensor delivery measure and technical production discussion."
+    },
+    "article_summary": "Tracks commercialization of force/torque sensing, including calibration and signal-processing requirements.",
+    "supply_chain_components": {
+      "motors": [],
+      "actuators": [],
+      "precision_reducers": [],
+      "bearings": [],
+      "ball_and_roller_screws": [],
+      "encoders": [],
+      "sensors": [
+        {
+          "player": "Keli Sensing",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Chinese",
+            "country": "China"
+          },
+          "role_in_supply_chain": "Six-axis force/torque, joint-torque and tactile sensing",
+          "significant_events": [],
+          "market_share_or_scale": [
+            {
+              "value": "More than 1,500 units sold; company reported",
+              "metric": "shipments",
+              "market_definition": "Robot mechanical/force-sensing products; not robots and not sensor-market share",
+              "geography": "Company sales; destination split undisclosed",
+              "year": "2025",
+              "source_wording": "机器人力学传感器销售量超过1500只"
+            }
+          ],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Describes mechanical design, decoupling algorithms, high-speed acquisition, communications and automated calibration.",
+            "Reported sampling and investment relationships do not by themselves establish production supply contracts."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Section III, subsection （三）机器人相关业务持续推进，产品、客户与制造能力同步提升",
+          "confidence": "high"
+        }
+      ],
+      "dexterous_hands": [],
+      "batteries_and_power": [],
+      "semiconductors_and_compute": [],
+      "controllers_and_electronics": [],
+      "software_and_ai": [],
+      "manufacturing_and_assembly": [],
+      "full_robot_integration": [],
+      "machine_tools": [],
+      "testing_simulation_and_data": [],
+      "other": []
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn10view7\"}}"
+  },
+  {
+    "article_id": "A012",
+    "title_original": "秦川机床工具集团股份公司2025年年度报告全文",
+    "title_english": "Qinchuan Machine Tool & Tool Group Corp. 2025 Annual Report",
+    "publisher": "Qinchuan Machine Tool; filing mirrored by Sina Finance",
+    "author": "Qinchuan Machine Tool",
+    "publication_date": "2026-03-27",
+    "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12025001&stockid=000837",
+    "language": "Chinese (Simplified)",
+    "source_type": "company filing",
+    "geographic_scope": [
+      "China"
+    ],
+    "quality_assessment": {
+      "depth_score": 4,
+      "data_quality_score": 4,
+      "primary_source_score": 5,
+      "reason_selected": "Identifies manufacturing equipment designed specifically for planetary roller screws."
+    },
+    "article_summary": "Shows the machine-tool layer behind precision transmission localization.",
+    "supply_chain_components": {
+      "motors": [],
+      "actuators": [],
+      "precision_reducers": [],
+      "bearings": [],
+      "ball_and_roller_screws": [],
+      "encoders": [],
+      "sensors": [],
+      "dexterous_hands": [],
+      "batteries_and_power": [],
+      "semiconductors_and_compute": [],
+      "controllers_and_electronics": [],
+      "software_and_ai": [],
+      "manufacturing_and_assembly": [],
+      "full_robot_integration": [],
+      "machine_tools": [
+        {
+          "player": "Qinchuan / Hanjiang Machine Tool",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Chinese",
+            "country": "China"
+          },
+          "role_in_supply_chain": "Internal and external thread-grinding equipment",
+          "significant_events": [
+            {
+              "date": "2025",
+              "event": "Completed HJ109 internal and HJ110 external thread-grinder development and experimental validation.",
+              "significance": "Equipment-development milestone supporting planetary roller-screw machining."
+            }
+          ],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "The report planned market promotion at an April 2026 exhibition; this is not proof of subsequent sales.",
+            "Thread geometry and precision grinding are enabling processes for screw transmission components."
+          ],
+          "competitive_position": "Named domestic equipment developer; no comparable humanoid-equipment market share disclosed.",
+          "evidence_location": "Section III, Hanjiang Machine Tool and product-development discussion",
+          "confidence": "high"
+        }
+      ],
+      "testing_simulation_and_data": [],
+      "other": []
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn25view6\"}}"
+  },
+  {
+    "article_id": "A013",
+    "title_original": "苏州绿的谐波传动科技股份有限公司2025年年度报告（更正后）",
+    "title_english": "Suzhou Leaderdrive Harmonic Drive Co., Ltd. 2025 Annual Report (Corrected)",
+    "publisher": "Leaderdrive; corrected filing mirrored by Sina Finance",
+    "author": "Leaderdrive",
+    "publication_date": "2026-07-10",
+    "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12438944&stockid=688017",
+    "language": "Chinese (Simplified)",
+    "source_type": "company filing",
+    "geographic_scope": [
+      "China",
+      "Global"
+    ],
+    "quality_assessment": {
+      "depth_score": 4,
+      "data_quality_score": 4,
+      "primary_source_score": 5,
+      "reason_selected": "Corrected primary filing details the materials and process challenges of precision gearing."
+    },
+    "article_summary": "Explains reducer and integrated-joint development; no unsupported humanoid-customer attribution is added.",
+    "supply_chain_components": {
+      "motors": [],
+      "actuators": [],
+      "precision_reducers": [
+        {
+          "player": "Leaderdrive",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Chinese",
+            "country": "China"
+          },
+          "role_in_supply_chain": "Harmonic reducers and integrated joint transmissions",
+          "significant_events": [],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Flexspline material/geometry optimization targets wear, stiffness and service life.",
+            "Compact harmonic transmissions and impact-resistant processes support robot-joint packaging.",
+            "The cited technology descriptions do not establish humanoid-specific shipment shares."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Section III, product descriptions and core-technology table",
+          "confidence": "high"
+        }
+      ],
+      "bearings": [],
+      "ball_and_roller_screws": [],
+      "encoders": [],
+      "sensors": [],
+      "dexterous_hands": [],
+      "batteries_and_power": [],
+      "semiconductors_and_compute": [],
+      "controllers_and_electronics": [],
+      "software_and_ai": [],
+      "manufacturing_and_assembly": [],
+      "full_robot_integration": [],
+      "machine_tools": [],
+      "testing_simulation_and_data": [],
+      "other": []
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn22view0\"}}"
+  },
+  {
+    "article_id": "A014",
+    "title_original": "浙江三花智能控制股份有限公司2025年年度报告",
+    "title_english": "Zhejiang Sanhua Intelligent Controls Co., Ltd. 2025 Annual Report",
+    "publisher": "Sanhua Intelligent Controls; filing mirrored by Sina Finance",
+    "author": "Sanhua Intelligent Controls",
+    "publication_date": "2026-03-24",
+    "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12012988&stockid=002050",
+    "language": "Chinese (Simplified)",
+    "source_type": "company filing",
+    "geographic_scope": [
+      "China",
+      "Global"
+    ],
+    "quality_assessment": {
+      "depth_score": 4,
+      "data_quality_score": 4,
+      "primary_source_score": 5,
+      "reason_selected": "Clarifies the development stage of a frequently discussed actuator entrant."
+    },
+    "article_summary": "Describes actuator engineering and sample delivery without disclosing named humanoid customers.",
+    "supply_chain_components": {
+      "motors": [],
+      "actuators": [
+        {
+          "player": "Sanhua Intelligent Controls",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Chinese",
+            "country": "China"
+          },
+          "role_in_supply_chain": "Humanoid electromechanical actuators",
+          "significant_events": [
+            {
+              "date": "2025",
+              "event": "Continued actuator engineering, prototype iteration and customer sample deliveries.",
+              "significance": "Demonstrates development activity, not verified high-volume production."
+            }
+          ],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Named customer relationships, humanoid revenue and humanoid market share are not established in this passage."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Section III, subsection 4(3), emerging businesses",
+          "confidence": "high"
+        }
+      ],
+      "precision_reducers": [],
+      "bearings": [],
+      "ball_and_roller_screws": [],
+      "encoders": [],
+      "sensors": [],
+      "dexterous_hands": [],
+      "batteries_and_power": [],
+      "semiconductors_and_compute": [],
+      "controllers_and_electronics": [],
+      "software_and_ai": [],
+      "manufacturing_and_assembly": [],
+      "full_robot_integration": [],
+      "machine_tools": [],
+      "testing_simulation_and_data": [],
+      "other": []
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn8view2\"}}"
+  },
+  {
+    "article_id": "A015",
+    "title_original": "Nabtesco Value Report 2025",
+    "title_english": "Nabtesco Value Report 2025",
+    "publisher": "Nabtesco Corporation",
+    "author": "Nabtesco Corporation",
+    "publication_date": "2026",
+    "url": "https://www.nabtesco.com/cms/wp-content/uploads/value_report_2025_en.pdf",
+    "language": "English",
+    "source_type": "company filing",
+    "geographic_scope": [
+      "Japan",
+      "China",
+      "Europe",
+      "North America",
+      "Global"
+    ],
+    "quality_assessment": {
+      "depth_score": 4,
+      "data_quality_score": 4,
+      "primary_source_score": 5,
+      "reason_selected": "Important Japanese precision-reducer perspective; distinguishes industrial-robot exposure from humanoids."
+    },
+    "article_summary": "Explains RV reducer production, manufacturing advantages and adjacent physical-AI opportunities. Its advertised share is not reproduced because the relevant unit-versus-revenue basis is unspecified.",
+    "supply_chain_components": {
+      "motors": [],
+      "actuators": [],
+      "precision_reducers": [
+        {
+          "player": "Nabtesco",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "Japan"
+          },
+          "role_in_supply_chain": "RV precision reduction gears",
+          "significant_events": [],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Describes production in Japan and China and sales across Asia, Europe and North America.",
+            "High rigidity, low vibration and precision manufacturing support robot-joint control; industrial-robot strength is not a demonstrated humanoid-market share."
+          ],
+          "competitive_position": "Established industrial precision-reducer supplier; humanoid-specific leadership not quantified.",
+          "evidence_location": "Printed pp.19–20, Component Solutions; physical-AI discussion p.16",
+          "confidence": "high"
+        }
+      ],
+      "bearings": [],
+      "ball_and_roller_screws": [],
+      "encoders": [],
+      "sensors": [],
+      "dexterous_hands": [],
+      "batteries_and_power": [],
+      "semiconductors_and_compute": [],
+      "controllers_and_electronics": [],
+      "software_and_ai": [],
+      "manufacturing_and_assembly": [],
+      "full_robot_integration": [],
+      "machine_tools": [],
+      "testing_simulation_and_data": [],
+      "other": []
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn34view4\"}}"
+  },
+  {
+    "article_id": "A016",
+    "title_original": "Integrated Report 2025: A Review of the 2024 Fiscal Year",
+    "title_english": "Integrated Report 2025: A Review of the 2024 Fiscal Year",
+    "publisher": "THK Co., Ltd.",
+    "author": "THK Co., Ltd.",
+    "publication_date": "2025",
+    "url": "https://www.thk.com/in/en/products/catalog/pub/Integrated_Report_2025_en.pdf",
+    "language": "English",
+    "source_type": "company filing",
+    "geographic_scope": [
+      "Japan",
+      "China",
+      "Europe",
+      "North America",
+      "Global"
+    ],
+    "quality_assessment": {
+      "depth_score": 4,
+      "data_quality_score": 4,
+      "primary_source_score": 5,
+      "reason_selected": "Explains Japanese linear-motion capabilities and regional strategy without inventing humanoid contracts."
+    },
+    "article_summary": "An adjacent-component baseline, not a dedicated humanoid shipment report.",
+    "supply_chain_components": {
+      "motors": [],
+      "actuators": [],
+      "precision_reducers": [],
+      "bearings": [
+        {
+          "player": "THK",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "Japan"
+          },
+          "role_in_supply_chain": "Cross-roller rings",
+          "significant_events": [],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Cross-roller bearings handle multidirectional loads in robot joints and rotating elements."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "PDF p.2, product overview",
+          "confidence": "high"
+        }
+      ],
+      "ball_and_roller_screws": [
+        {
+          "player": "THK",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "Japan"
+          },
+          "role_in_supply_chain": "Precision ball screws and linear-motion components",
+          "significant_events": [],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Ball screws convert rotary to linear motion for precision positioning.",
+            "The Americas strategy explicitly identifies humanoid demand as an opportunity; no named humanoid customer is established."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "PDF p.2, product overview; PDF p.25, regional strategy",
+          "confidence": "high"
+        }
+      ],
+      "encoders": [],
+      "sensors": [],
+      "dexterous_hands": [],
+      "batteries_and_power": [],
+      "semiconductors_and_compute": [],
+      "controllers_and_electronics": [],
+      "software_and_ai": [],
+      "manufacturing_and_assembly": [],
+      "full_robot_integration": [],
+      "machine_tools": [],
+      "testing_simulation_and_data": [],
+      "other": []
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn32view7\"}}"
+  },
+  {
+    "article_id": "A017",
+    "title_original": "HIWIN TECHNOLOGIES CORP. Annual Report 2025",
+    "title_english": "HIWIN TECHNOLOGIES CORP. Annual Report 2025",
+    "publisher": "HIWIN Technologies; report mirrored by FinancialFilings",
+    "author": "HIWIN Technologies",
+    "publication_date": "2026",
+    "url": "https://financialfilings.com/filings/hiwin-2049/annual-report/2026/45723724/",
+    "language": "English",
+    "source_type": "company filing",
+    "geographic_scope": [
+      "Taiwan",
+      "Global"
+    ],
+    "quality_assessment": {
+      "depth_score": 4,
+      "data_quality_score": 4,
+      "primary_source_score": 5,
+      "reason_selected": "Detailed precision-motion development and explicitly forecast product volumes."
+    },
+    "article_summary": "Reports miniature ball-screw development and vertically integrated component capabilities; forecasts cover all applications.",
+    "supply_chain_components": {
+      "motors": [],
+      "actuators": [],
+      "precision_reducers": [],
+      "bearings": [],
+      "ball_and_roller_screws": [
+        {
+          "player": "HIWIN Technologies",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "Taiwan"
+          },
+          "role_in_supply_chain": "Miniature and precision ball screws",
+          "significant_events": [
+            {
+              "date": "2025",
+              "event": "Developed the MBS miniature ball-screw series and a wireless screw-sensing prototype.",
+              "significance": "Addresses compact packaging and condition monitoring."
+            }
+          ],
+          "market_share_or_scale": [
+            {
+              "value": "2.8–3.0 million pieces; company forecast, not actual sales",
+              "metric": "shipments",
+              "market_definition": "HIWIN ball-screw sales across all applications, not humanoid screws or market share",
+              "geography": "Global company sales",
+              "year": "2026",
+              "source_wording": "Ball screw | 2,800~3,000"
+            }
+          ],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Table units are thousands of pieces.",
+            "Miniaturization must preserve lead accuracy, load capacity and fatigue life."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "2025 R&D achievements; 2026 business plan II(I–II); operations/R&D discussion",
+          "confidence": "high"
+        }
+      ],
+      "encoders": [],
+      "sensors": [],
+      "dexterous_hands": [],
+      "batteries_and_power": [],
+      "semiconductors_and_compute": [],
+      "controllers_and_electronics": [],
+      "software_and_ai": [],
+      "manufacturing_and_assembly": [],
+      "full_robot_integration": [],
+      "machine_tools": [],
+      "testing_simulation_and_data": [],
+      "other": []
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn33view7\"}}"
+  },
+  {
+    "article_id": "A018",
+    "title_original": "人形机器人创新发展指导意见",
+    "title_english": "Guiding Opinions on the Innovative Development of Humanoid Robots",
+    "publisher": "Ministry of Industry and Information Technology of China",
+    "author": "Ministry of Industry and Information Technology",
+    "publication_date": "2023-11-02",
+    "url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/20248/50f3ebcf5d4f4cdfab8e753056ff1f09.pdf",
+    "language": "Chinese (Simplified)",
+    "source_type": "government report",
+    "geographic_scope": [
+      "China"
+    ],
+    "quality_assessment": {
+      "depth_score": 4,
+      "data_quality_score": 4,
+      "primary_source_score": 5,
+      "reason_selected": "Primary national roadmap explicitly addresses components, materials, software and testing."
+    },
+    "article_summary": "Sets 2025 and 2027 development objectives. These are historical policy targets, not evidence that the targets were achieved.",
+    "supply_chain_components": {
+      "motors": [],
+      "actuators": [],
+      "precision_reducers": [],
+      "bearings": [],
+      "ball_and_roller_screws": [],
+      "encoders": [],
+      "sensors": [],
+      "dexterous_hands": [],
+      "batteries_and_power": [],
+      "semiconductors_and_compute": [],
+      "controllers_and_electronics": [],
+      "software_and_ai": [],
+      "manufacturing_and_assembly": [],
+      "full_robot_integration": [],
+      "machine_tools": [],
+      "testing_simulation_and_data": [
+        {
+          "player": "Ministry of Industry and Information Technology",
+          "player_type": "government entity",
+          "player_origin": {
+            "classification": "Chinese",
+            "country": "China"
+          },
+          "role_in_supply_chain": "Standards and validation-policy coordination",
+          "significant_events": [],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Calls for standards, testing and pilot-validation capabilities."
+          ],
+          "competitive_position": "Public enabling role; no market share applicable.",
+          "evidence_location": "Section V, supporting capabilities",
+          "confidence": "high"
+        }
+      ],
+      "other": [
+        {
+          "player": "Ministry of Industry and Information Technology",
+          "player_type": "government entity",
+          "player_origin": {
+            "classification": "Chinese",
+            "country": "China"
+          },
+          "role_in_supply_chain": "Industrial policy; structural materials and component-ecosystem development",
+          "significant_events": [
+            {
+              "date": "2023-10-20",
+              "event": "Issued the humanoid innovation-development guidance, published November 2.",
+              "significance": "Formalized component-security and industrialization priorities."
+            }
+          ],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Calls for lightweight skeletons, strong body structures, integrated energy management and coordinated hardware/software development."
+          ],
+          "competitive_position": "Policy-setting institution, not a commercial supplier.",
+          "evidence_location": "Sections I–III, printed pp.2–4",
+          "confidence": "high"
+        }
+      ]
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn34view1\"}}"
+  },
+  {
+    "article_id": "A019",
+    "title_original": "Ramping Figure 03 Production",
+    "title_english": "Ramping Figure 03 Production",
+    "publisher": "Figure AI",
+    "author": "Figure AI",
+    "publication_date": "2026-04-29",
+    "url": "https://www.figure.ai/news/ramping-figure-03-production",
+    "language": "English",
+    "source_type": "other",
+    "geographic_scope": [
+      "United States"
+    ],
+    "quality_assessment": {
+      "depth_score": 4,
+      "data_quality_score": 4,
+      "primary_source_score": 5,
+      "reason_selected": "Unusually concrete manufacturer disclosure on output, actuator production and quality control."
+    },
+    "article_summary": "Company-reported manufacturing progress; delivery totals include internal development/data uses and must not be read as external customer sales.",
+    "supply_chain_components": {
+      "motors": [],
+      "actuators": [
+        {
+          "player": "Figure AI",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "United States"
+          },
+          "role_in_supply_chain": "In-house actuator manufacturing",
+          "significant_events": [],
+          "market_share_or_scale": [
+            {
+              "value": "More than 9,000 actuators manufactured; company reported",
+              "metric": "other",
+              "market_definition": "Cumulative internal actuator production, not external actuator shipments; as of April 29",
+              "geography": "United States",
+              "year": "2026",
+              "source_wording": "over 9,000 actuators"
+            }
+          ],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Actuator-line output supports internal robot assembly and development."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Actuator production discussion",
+          "confidence": "high"
+        }
+      ],
+      "precision_reducers": [],
+      "bearings": [],
+      "ball_and_roller_screws": [],
+      "encoders": [],
+      "sensors": [],
+      "dexterous_hands": [],
+      "batteries_and_power": [],
+      "semiconductors_and_compute": [],
+      "controllers_and_electronics": [],
+      "software_and_ai": [],
+      "manufacturing_and_assembly": [
+        {
+          "player": "Figure AI",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "United States"
+          },
+          "role_in_supply_chain": "BotQ humanoid production",
+          "significant_events": [],
+          "market_share_or_scale": [
+            {
+              "value": "More than 350 Figure 03 robots delivered; company reported",
+              "metric": "shipments",
+              "market_definition": "Cumulative Figure 03 deliveries, including internal uses; not external customer sales alone; as of April 29",
+              "geography": "United States manufacturing; destinations not fully split",
+              "year": "2026",
+              "source_wording": "delivering over 350"
+            }
+          ],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Reports a one-robot-per-hour production rate and staged quality checks; do not annualize this into proven output."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Opening paragraphs; production ramp and quality sections",
+          "confidence": "high"
+        }
+      ],
+      "full_robot_integration": [],
+      "machine_tools": [],
+      "testing_simulation_and_data": [],
+      "other": []
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn16view0\"}}"
+  },
+  {
+    "article_id": "A020",
+    "title_original": "F.03 Battery Development",
+    "title_english": "F.03 Battery Development",
+    "publisher": "Figure AI",
+    "author": "Figure AI",
+    "publication_date": "2025-07-17",
+    "url": "https://www.figure.ai/news/f-03-battery-development",
+    "language": "English",
+    "source_type": "other",
+    "geographic_scope": [
+      "United States"
+    ],
+    "quality_assessment": {
+      "depth_score": 4,
+      "data_quality_score": 4,
+      "primary_source_score": 5,
+      "reason_selected": "Detailed pack architecture, safety engineering and manufacturing-process choices."
+    },
+    "article_summary": "Explains structural battery integration and thermal-failure containment. Certification language varies within the article; no completed pack-certification claim is inferred.",
+    "supply_chain_components": {
+      "motors": [],
+      "actuators": [],
+      "precision_reducers": [],
+      "bearings": [],
+      "ball_and_roller_screws": [],
+      "encoders": [],
+      "sensors": [],
+      "dexterous_hands": [],
+      "batteries_and_power": [
+        {
+          "player": "Figure AI",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "United States"
+          },
+          "role_in_supply_chain": "In-house battery pack and management system",
+          "significant_events": [],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Uses stamped steel, die-cast aluminum and adhesives; the enclosure also supports the torso.",
+            "Cooling is integrated into the casting; insulation and venting address thermal propagation and external flame.",
+            "Custom BMS and fusible interconnects provide layered protection.",
+            "Manufacturing shifts toward casting, stamping and molding; cell supplier not identified."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Structural Battery; Active Cooling; Raising the Bar for Robot Battery Safety; manufacturing sections",
+          "confidence": "high"
+        }
+      ],
+      "semiconductors_and_compute": [],
+      "controllers_and_electronics": [],
+      "software_and_ai": [],
+      "manufacturing_and_assembly": [],
+      "full_robot_integration": [],
+      "machine_tools": [],
+      "testing_simulation_and_data": [],
+      "other": [
+        {
+          "player": "Figure AI",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "United States"
+          },
+          "role_in_supply_chain": "Structural components: load-bearing battery enclosure",
+          "significant_events": [],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Combining enclosure and torso functions reduces packaging mass and volume."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Structural Battery subsection",
+          "confidence": "high"
+        }
+      ]
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn36view0\"}}"
+  },
+  {
+    "article_id": "A021",
+    "title_original": "Hyundai Motor Group Announces AI Robotics Strategy to Lead Human-Centered Robotics Era at CES 2026",
+    "title_english": "Hyundai Motor Group Announces AI Robotics Strategy to Lead Human-Centered Robotics Era at CES 2026",
+    "publisher": "Hyundai Motor Group",
+    "author": "Hyundai Motor Group",
+    "publication_date": "2026-01-05",
+    "url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001100",
+    "language": "English",
+    "source_type": "other",
+    "geographic_scope": [
+      "South Korea",
+      "United States",
+      "Global"
+    ],
+    "quality_assessment": {
+      "depth_score": 4,
+      "data_quality_score": 4,
+      "primary_source_score": 5,
+      "reason_selected": "Details a Korean-US component-to-integration chain and explicitly dated capacity plans."
+    },
+    "article_summary": "Links automotive manufacturing, actuator development and Atlas commercialization; planned capacity is not installed output.",
+    "supply_chain_components": {
+      "motors": [],
+      "actuators": [
+        {
+          "player": "Hyundai Mobis",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "South Korea"
+          },
+          "role_in_supply_chain": "High-performance robot actuators",
+          "significant_events": [],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [
+            "Works with Boston Dynamics on actuator development."
+          ],
+          "technical_or_strategic_information": [
+            "Design-for-manufacture and component standardization are explicit priorities."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Group Value Network affiliate-contributions list",
+          "confidence": "high"
+        }
+      ],
+      "precision_reducers": [],
+      "bearings": [],
+      "ball_and_roller_screws": [],
+      "encoders": [],
+      "sensors": [],
+      "dexterous_hands": [],
+      "batteries_and_power": [],
+      "semiconductors_and_compute": [],
+      "controllers_and_electronics": [],
+      "software_and_ai": [],
+      "manufacturing_and_assembly": [
+        {
+          "player": "Hyundai Motor Group",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "South Korea"
+          },
+          "role_in_supply_chain": "Group-wide robot industrialization",
+          "significant_events": [],
+          "market_share_or_scale": [
+            {
+              "value": "30,000 robots/year; target capacity by 2028",
+              "metric": "production capacity",
+              "market_definition": "Planned group robotics facility/system, not actual Atlas shipments",
+              "geography": "United States planned facility",
+              "year": "2028",
+              "source_wording": "30,000 robot units annually"
+            }
+          ],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Uses automotive process expertise, manufacturing data and group logistics capabilities."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Accelerating Commercialization; US investment paragraphs",
+          "confidence": "high"
+        }
+      ],
+      "full_robot_integration": [
+        {
+          "player": "Boston Dynamics",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "United States"
+          },
+          "role_in_supply_chain": "Atlas humanoid integration",
+          "significant_events": [],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [
+            "Group rollout includes Hyundai manufacturing; announced AI collaboration with Google DeepMind."
+          ],
+          "technical_or_strategic_information": [
+            "US headquarters classification is separate from Korean parent ownership."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Atlas commercialization and AI-partnership sections",
+          "confidence": "high"
+        }
+      ],
+      "machine_tools": [],
+      "testing_simulation_and_data": [],
+      "other": []
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn28view3\"}}"
+  },
+  {
+    "article_id": "A022",
+    "title_original": "PAL Robotics integrates magnetic encoder technology into robots to achieve balance",
+    "title_english": "PAL Robotics integrates magnetic encoder technology into robots to achieve balance",
+    "publisher": "Renishaw",
+    "author": "Renishaw",
+    "publication_date": null,
+    "url": "https://www.renishaw.com/en/--43036",
+    "language": "English",
+    "source_type": "other",
+    "geographic_scope": [
+      "Slovenia",
+      "Spain",
+      "United Kingdom"
+    ],
+    "quality_assessment": {
+      "depth_score": 4,
+      "data_quality_score": 4,
+      "primary_source_score": 5,
+      "reason_selected": "Specific encoder-to-humanoid integration case with application-level engineering detail."
+    },
+    "article_summary": "Explains joint-feedback selection under space and weight constraints. No publication date is visible in the retrieved page.",
+    "supply_chain_components": {
+      "motors": [],
+      "actuators": [],
+      "precision_reducers": [],
+      "bearings": [],
+      "ball_and_roller_screws": [],
+      "encoders": [
+        {
+          "player": "RLS",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "Slovenia"
+          },
+          "role_in_supply_chain": "Non-contact magnetic rotary and incremental encoders",
+          "significant_events": [],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [
+            "PAL Robotics uses RLS AksIM, Orbis and RoLin encoders; Renishaw advised selection."
+          ],
+          "technical_or_strategic_information": [
+            "Encoder feedback supports joint position, velocity and torque control.",
+            "Knee, wrist and elbow integration illustrates packaging and interface requirements."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Solution; About RLS",
+          "confidence": "high"
+        }
+      ],
+      "sensors": [],
+      "dexterous_hands": [],
+      "batteries_and_power": [],
+      "semiconductors_and_compute": [],
+      "controllers_and_electronics": [],
+      "software_and_ai": [],
+      "manufacturing_and_assembly": [],
+      "full_robot_integration": [
+        {
+          "player": "PAL Robotics",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "Spain"
+          },
+          "role_in_supply_chain": "REEM-C humanoid integration",
+          "significant_events": [],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [
+            "Confirmed user of RLS encoders in the case study."
+          ],
+          "technical_or_strategic_information": [],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Background; Solution",
+          "confidence": "high"
+        }
+      ],
+      "machine_tools": [],
+      "testing_simulation_and_data": [],
+      "other": []
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn37view3\"}}"
+  },
+  {
+    "article_id": "A023",
+    "title_original": "NXP Delivers New Innovations for Advanced Physical AI with NVIDIA",
+    "title_english": "NXP Delivers New Innovations for Advanced Physical AI with NVIDIA",
+    "publisher": "NXP Semiconductors",
+    "author": "NXP Semiconductors",
+    "publication_date": "2026-03-16",
+    "url": "https://www.nxp.com/company/about-nxp/newsroom/NW-NXP-DELIVERS-NEW-INNOVATIONS-AI-NVIDIA",
+    "language": "English",
+    "source_type": "other",
+    "geographic_scope": [
+      "Netherlands",
+      "United States",
+      "Global"
+    ],
+    "quality_assessment": {
+      "depth_score": 3,
+      "data_quality_score": 4,
+      "primary_source_score": 5,
+      "reason_selected": "Explains real-time robot-body networking rather than only headline AI compute."
+    },
+    "article_summary": "Details controller-side integration for synchronized sensing and actuation.",
+    "supply_chain_components": {
+      "motors": [],
+      "actuators": [],
+      "precision_reducers": [],
+      "bearings": [],
+      "ball_and_roller_screws": [],
+      "encoders": [],
+      "sensors": [],
+      "dexterous_hands": [],
+      "batteries_and_power": [],
+      "semiconductors_and_compute": [],
+      "controllers_and_electronics": [
+        {
+          "player": "NXP Semiconductors",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "Netherlands"
+          },
+          "role_in_supply_chain": "Real-time processing, networking and motor-control SoCs",
+          "significant_events": [
+            {
+              "date": "2026-03-16",
+              "event": "Announced robotics solutions integrating Holoscan Sensor Bridge with NXP SoCs.",
+              "significance": "Connects distributed body electronics with robot AI compute."
+            }
+          ],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [
+            "Explicit development collaboration with NVIDIA; not an exclusive supply agreement."
+          ],
+          "technical_or_strategic_information": [
+            "Targets fewer discrete components, lower latency, reduced board footprint and simpler sensing/actuation integration."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Release opening; integrated robot-body solutions paragraphs",
+          "confidence": "high"
+        }
+      ],
+      "software_and_ai": [],
+      "manufacturing_and_assembly": [],
+      "full_robot_integration": [],
+      "machine_tools": [],
+      "testing_simulation_and_data": [],
+      "other": []
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn29view2\"}}"
+  },
+  {
+    "article_id": "A024",
+    "title_original": "Infineon accelerates deployment of robots with improved safety and security features using digital twins in collaboration with NVIDIA",
+    "title_english": "Infineon accelerates deployment of robots with improved safety and security features using digital twins in collaboration with NVIDIA",
+    "publisher": "Infineon Technologies",
+    "author": "Infineon Technologies",
+    "publication_date": "2026-03-16",
+    "url": "https://www.infineon.com/press-release/2026/infxx202603-073",
+    "language": "English",
+    "source_type": "other",
+    "geographic_scope": [
+      "Germany",
+      "United States",
+      "Global"
+    ],
+    "quality_assessment": {
+      "depth_score": 3,
+      "data_quality_score": 4,
+      "primary_source_score": 5,
+      "reason_selected": "Identifies the actuator-control semiconductor stack and simulation relationship."
+    },
+    "article_summary": "Connects motor-control electronics, power management and security with pre-hardware validation.",
+    "supply_chain_components": {
+      "motors": [],
+      "actuators": [],
+      "precision_reducers": [],
+      "bearings": [],
+      "ball_and_roller_screws": [],
+      "encoders": [],
+      "sensors": [],
+      "dexterous_hands": [],
+      "batteries_and_power": [],
+      "semiconductors_and_compute": [
+        {
+          "player": "Infineon Technologies",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "Germany"
+          },
+          "role_in_supply_chain": "Motor-control, microcontroller, power and security semiconductors",
+          "significant_events": [
+            {
+              "date": "2026-03-16",
+              "event": "Expanded its NVIDIA physical-AI collaboration.",
+              "significance": "Links component design to humanoid reference architectures."
+            }
+          ],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [
+            "Collaboration combines Infineon components with NVIDIA Jetson Thor and simulation tools."
+          ],
+          "technical_or_strategic_information": [
+            "The release's semiconductor-content opportunity is an estimate, not booked sales or market share."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Opening announcement and semiconductor functional-block paragraphs",
+          "confidence": "high"
+        }
+      ],
+      "controllers_and_electronics": [],
+      "software_and_ai": [],
+      "manufacturing_and_assembly": [],
+      "full_robot_integration": [],
+      "machine_tools": [],
+      "testing_simulation_and_data": [
+        {
+          "player": "Infineon Technologies",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "Germany"
+          },
+          "role_in_supply_chain": "Digital twins of actuators and sensors",
+          "significant_events": [],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Virtual components in Isaac Sim and Isaac Lab support motion-control and perception testing before hardware integration."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Digital-twin paragraph",
+          "confidence": "high"
+        }
+      ],
+      "other": []
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn33view6\"}}"
+  },
+  {
+    "article_id": "A025",
+    "title_original": "NVIDIA Blackwell-Powered Jetson Thor Now Available, Accelerating the Age of General Robotics",
+    "title_english": "NVIDIA Blackwell-Powered Jetson Thor Now Available, Accelerating the Age of General Robotics",
+    "publisher": "NVIDIA",
+    "author": "NVIDIA",
+    "publication_date": "2025-08-25",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-blackwell-powered-jetson-thor-now-available-accelerating-the-age-of-general-robotics",
+    "language": "English",
+    "source_type": "other",
+    "geographic_scope": [
+      "United States",
+      "China",
+      "Global"
+    ],
+    "quality_assessment": {
+      "depth_score": 3,
+      "data_quality_score": 4,
+      "primary_source_score": 5,
+      "reason_selected": "Primary product-availability announcement with robot-developer adoption evidence."
+    },
+    "article_summary": "Explains the embedded AI-compute layer and its relationship to robotics development tools.",
+    "supply_chain_components": {
+      "motors": [],
+      "actuators": [],
+      "precision_reducers": [],
+      "bearings": [],
+      "ball_and_roller_screws": [],
+      "encoders": [],
+      "sensors": [],
+      "dexterous_hands": [],
+      "batteries_and_power": [],
+      "semiconductors_and_compute": [
+        {
+          "player": "NVIDIA",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "United States"
+          },
+          "role_in_supply_chain": "Jetson Thor embedded robot compute",
+          "significant_events": [
+            {
+              "date": "2025-08-25",
+              "event": "Announced Jetson Thor availability.",
+              "significance": "Commercial platform milestone, not robot-shipment evidence."
+            }
+          ],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [
+            "Figure explicitly discusses adopting Jetson Thor in the release."
+          ],
+          "technical_or_strategic_information": [
+            "Combines Blackwell compute with unified memory and the Isaac software ecosystem.",
+            "Performance and power specifications are vendor claims, not market-share measurements."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Product announcement; Figure quotation; technical specifications",
+          "confidence": "high"
+        }
+      ],
+      "controllers_and_electronics": [],
+      "software_and_ai": [],
+      "manufacturing_and_assembly": [],
+      "full_robot_integration": [],
+      "machine_tools": [],
+      "testing_simulation_and_data": [],
+      "other": []
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn27view1\"}}"
+  },
+  {
+    "article_id": "A026",
+    "title_original": "NVIDIA Announces NVIDIA Isaac GR00T Reference Humanoid Robot for Academic Research",
+    "title_english": "NVIDIA Announces NVIDIA Isaac GR00T Reference Humanoid Robot for Academic Research",
+    "publisher": "NVIDIA",
+    "author": "NVIDIA",
+    "publication_date": "2026-05-31",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-open-humanoid-robot-reference-design",
+    "language": "English",
+    "source_type": "other",
+    "geographic_scope": [
+      "United States",
+      "China",
+      "Switzerland",
+      "Global"
+    ],
+    "quality_assessment": {
+      "depth_score": 3,
+      "data_quality_score": 4,
+      "primary_source_score": 5,
+      "reason_selected": "A concrete cross-border bill-of-system relationship, not a speculative supplier list."
+    },
+    "article_summary": "Combines Chinese robot hardware, tactile hands, US compute and an open development workflow; availability is prospective.",
+    "supply_chain_components": {
+      "motors": [],
+      "actuators": [],
+      "precision_reducers": [],
+      "bearings": [],
+      "ball_and_roller_screws": [],
+      "encoders": [],
+      "sensors": [],
+      "dexterous_hands": [],
+      "batteries_and_power": [],
+      "semiconductors_and_compute": [],
+      "controllers_and_electronics": [],
+      "software_and_ai": [
+        {
+          "player": "NVIDIA",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "United States"
+          },
+          "role_in_supply_chain": "Isaac GR00T development stack",
+          "significant_events": [],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Workflow covers teleoperation, foundation models, simulation, policy evaluation and deployment."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "NVIDIA Isaac GR00T Provides a Full-Stack Platform",
+          "confidence": "high"
+        }
+      ],
+      "manufacturing_and_assembly": [],
+      "full_robot_integration": [
+        {
+          "player": "Unitree",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Chinese",
+            "country": "China"
+          },
+          "role_in_supply_chain": "H2 Plus humanoid hardware for a research reference design",
+          "significant_events": [
+            {
+              "date": "2026-05-31",
+              "event": "Named as the robot-body provider for NVIDIA's research reference design.",
+              "significance": "Explicit integration relationship; late-2026 availability remains a plan."
+            }
+          ],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [
+            "Reference design combines Unitree H2 Plus, Sharpa Wave hands and NVIDIA Jetson Thor."
+          ],
+          "technical_or_strategic_information": [
+            "Hardware specification separates body articulation, hand articulation, sensing and compute."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "News Summary; reference-design hardware section",
+          "confidence": "high"
+        }
+      ],
+      "machine_tools": [],
+      "testing_simulation_and_data": [],
+      "other": []
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn28view2\"}}"
+  },
+  {
+    "article_id": "A027",
+    "title_original": "NVIDIA Announces Halos for Robotics, the Industry’s First Full-Stack Safety System for Physical AI",
+    "title_english": "NVIDIA Announces Halos for Robotics, the Industry’s First Full-Stack Safety System for Physical AI",
+    "publisher": "NVIDIA",
+    "author": "NVIDIA",
+    "publication_date": "2026-06-22",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-halos-for-robotics-the-industrys-first-full-stack-safety-system-for-physical-ai",
+    "language": "English",
+    "source_type": "other",
+    "geographic_scope": [
+      "United States",
+      "Germany",
+      "Global"
+    ],
+    "quality_assessment": {
+      "depth_score": 3,
+      "data_quality_score": 4,
+      "primary_source_score": 5,
+      "reason_selected": "Clarifies the distinction between safety integration and completed third-party certification."
+    },
+    "article_summary": "Describes compute, sensor transport, safety software and inspection as a combined validation architecture.",
+    "supply_chain_components": {
+      "motors": [],
+      "actuators": [],
+      "precision_reducers": [],
+      "bearings": [],
+      "ball_and_roller_screws": [],
+      "encoders": [],
+      "sensors": [],
+      "dexterous_hands": [],
+      "batteries_and_power": [],
+      "semiconductors_and_compute": [],
+      "controllers_and_electronics": [
+        {
+          "player": "Agility Robotics",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "United States"
+          },
+          "role_in_supply_chain": "Humanoid safety-system integration",
+          "significant_events": [],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [
+            "Integrates elements of NVIDIA Halos into its proprietary safety system."
+          ],
+          "technical_or_strategic_information": [
+            "Integration status must be distinguished from system-wide certification."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Agility integration paragraphs",
+          "confidence": "high"
+        }
+      ],
+      "software_and_ai": [],
+      "manufacturing_and_assembly": [],
+      "full_robot_integration": [],
+      "machine_tools": [],
+      "testing_simulation_and_data": [
+        {
+          "player": "NVIDIA",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "United States"
+          },
+          "role_in_supply_chain": "Robotics safety stack and inspection ecosystem",
+          "significant_events": [
+            {
+              "date": "2026-06-22",
+              "event": "Announced Halos for Robotics.",
+              "significance": "Adds an explicit safety/inspection layer to the physical-AI ecosystem."
+            }
+          ],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [
+            "Agility Robotics is identified as the first integration partner."
+          ],
+          "technical_or_strategic_information": [
+            "The inspection lab helps partners prepare for third-party certification; participation does not certify a finished robot."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "News Summary; safety architecture and inspection discussion",
+          "confidence": "high"
+        }
+      ],
+      "other": []
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn37view4\"}}"
+  },
+  {
+    "article_id": "A028",
+    "title_original": "SAMSUNG SDI Unveils All-Solid-State Battery for Physical AI",
+    "title_english": "SAMSUNG SDI Unveils All-Solid-State Battery for Physical AI",
+    "publisher": "Samsung SDI",
+    "author": "Samsung SDI",
+    "publication_date": "2026-03-09",
+    "url": "https://www.samsungsdi.com/sdi-now/sdi-news/4782.html",
+    "language": "English",
+    "source_type": "other",
+    "geographic_scope": [
+      "South Korea",
+      "Global"
+    ],
+    "quality_assessment": {
+      "depth_score": 3,
+      "data_quality_score": 4,
+      "primary_source_score": 5,
+      "reason_selected": "Explains robot-specific battery form factors while separating samples from production targets."
+    },
+    "article_summary": "Announces physical-AI battery development; prospective solid-state production is not current humanoid supply.",
+    "supply_chain_components": {
+      "motors": [],
+      "actuators": [],
+      "precision_reducers": [],
+      "bearings": [],
+      "ball_and_roller_screws": [],
+      "encoders": [],
+      "sensors": [],
+      "dexterous_hands": [],
+      "batteries_and_power": [
+        {
+          "player": "Samsung SDI",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "South Korea"
+          },
+          "role_in_supply_chain": "Solid-state and pouch batteries for physical AI",
+          "significant_events": [
+            {
+              "date": "2026-03-09",
+              "event": "Announced physical-AI solid-state battery samples for InterBattery.",
+              "significance": "Development/exhibition milestone, not commercial robot deliveries."
+            }
+          ],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Targets compact, lightweight packaging and robot power requirements.",
+            "The company targets second-half 2027 solid-state mass production; this is not a disclosed robot-specific customer delivery commitment."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Physical-AI battery and InterBattery 2026 sections",
+          "confidence": "high"
+        }
+      ],
+      "semiconductors_and_compute": [],
+      "controllers_and_electronics": [],
+      "software_and_ai": [],
+      "manufacturing_and_assembly": [],
+      "full_robot_integration": [],
+      "machine_tools": [],
+      "testing_simulation_and_data": [],
+      "other": []
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn16view3\"}}"
+  },
+  {
+    "article_id": "A029",
+    "title_original": "SKF and Leaderdrive form a venture for precision components in humanoids",
+    "title_english": "SKF and Leaderdrive form a venture for precision components in humanoids",
+    "publisher": "SKF; distributed by Cision",
+    "author": "SKF",
+    "publication_date": "2026-07-02",
+    "url": "https://news.cision.com/skf/r/skf-and-leaderdrive-form-a-venture-for-precision-components-in-humanoids,c4370057",
+    "language": "English",
+    "source_type": "other",
+    "geographic_scope": [
+      "Sweden",
+      "China",
+      "Europe",
+      "Japan",
+      "United States"
+    ],
+    "quality_assessment": {
+      "depth_score": 3,
+      "data_quality_score": 4,
+      "primary_source_score": 5,
+      "reason_selected": "Explicit Swedish-Chinese manufacturing partnership, with ownership distinguished from market share."
+    },
+    "article_summary": "Announces a China-based venture for humanoid precision components; operation by end-2026 is prospective.",
+    "supply_chain_components": {
+      "motors": [],
+      "actuators": [],
+      "precision_reducers": [
+        {
+          "player": "Leaderdrive",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Chinese",
+            "country": "China"
+          },
+          "role_in_supply_chain": "Precision-transmission expertise for humanoid joints",
+          "significant_events": [],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [
+            "Partners with SKF in the announced venture."
+          ],
+          "technical_or_strategic_information": [
+            "The announcement does not establish realized venture production or specific OEM sales."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Partnership rationale",
+          "confidence": "high"
+        }
+      ],
+      "bearings": [
+        {
+          "player": "SKF",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "Sweden"
+          },
+          "role_in_supply_chain": "Precision bearing and manufacturing capabilities",
+          "significant_events": [
+            {
+              "date": "2026-07-02",
+              "event": "Announced a venture with Leaderdrive; SKF to hold 60%.",
+              "significance": "Equity ownership, not a 60% component-market share."
+            }
+          ],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [
+            "Leaderdrive is the announced joint-venture partner."
+          ],
+          "technical_or_strategic_information": [
+            "Contributes precision-component expertise and global industrial access."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Opening announcement and venture-structure paragraphs",
+          "confidence": "high"
+        }
+      ],
+      "ball_and_roller_screws": [],
+      "encoders": [],
+      "sensors": [],
+      "dexterous_hands": [],
+      "batteries_and_power": [],
+      "semiconductors_and_compute": [],
+      "controllers_and_electronics": [],
+      "software_and_ai": [],
+      "manufacturing_and_assembly": [],
+      "full_robot_integration": [],
+      "machine_tools": [],
+      "testing_simulation_and_data": [],
+      "other": []
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn16view5\"}}"
+  },
+  {
+    "article_id": "A030",
+    "title_original": "DEX-EE Overview: The most robust dexterous robot hand on the market",
+    "title_english": "DEX-EE Overview: The most robust dexterous robot hand on the market",
+    "publisher": "Shadow Robot",
+    "author": "Shadow Robot",
+    "publication_date": "2024-06-06",
+    "url": "https://shadowrobot.com/shadow-hand-overview-the-most-robust-dexterous-robot-hand-on-the-market/",
+    "language": "English",
+    "source_type": "other",
+    "geographic_scope": [
+      "United Kingdom",
+      "Global"
+    ],
+    "quality_assessment": {
+      "depth_score": 3,
+      "data_quality_score": 4,
+      "primary_source_score": 5,
+      "reason_selected": "Component-level sensing and maintainability details plus a named development partner."
+    },
+    "article_summary": "Describes a research end-effector engineered for repeated learning trials; the title's superlative is a vendor claim.",
+    "supply_chain_components": {
+      "motors": [],
+      "actuators": [],
+      "precision_reducers": [],
+      "bearings": [],
+      "ball_and_roller_screws": [],
+      "encoders": [],
+      "sensors": [
+        {
+          "player": "Shadow Robot",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "United Kingdom"
+          },
+          "role_in_supply_chain": "Integrated fingertip and phalange tactile sensing",
+          "significant_events": [],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Stereo-camera fingertip sensing and multi-taxel sensors capture contact interactions."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Breaking down The Shadow Hand, sensor bullets",
+          "confidence": "high"
+        }
+      ],
+      "dexterous_hands": [
+        {
+          "player": "Shadow Robot",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "United Kingdom"
+          },
+          "role_in_supply_chain": "DEX-EE dexterous research end-effector",
+          "significant_events": [
+            {
+              "date": "2024-06-06",
+              "event": "Presented DEX-EE following iterative development with Google DeepMind.",
+              "significance": "Targets long-running learning experiments and maintainability."
+            }
+          ],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [
+            "Explicit development collaboration with Google DeepMind."
+          ],
+          "technical_or_strategic_information": [
+            "Combines force/position control, tactile feedback and ROS integration; not evidence of humanoid mass-production orders."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Developed with the world's leading AI researchers; Breaking down The Shadow Hand",
+          "confidence": "high"
+        }
+      ],
+      "batteries_and_power": [],
+      "semiconductors_and_compute": [],
+      "controllers_and_electronics": [],
+      "software_and_ai": [],
+      "manufacturing_and_assembly": [],
+      "full_robot_integration": [],
+      "machine_tools": [],
+      "testing_simulation_and_data": [],
+      "other": []
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn28view1\"}}"
+  },
+  {
+    "article_id": "A031",
+    "title_original": "Apptronik and Jabil Collaborate to Scale Production of Apollo Humanoid Robots and Deploy in Manufacturing Operations",
+    "title_english": "Apptronik and Jabil Collaborate to Scale Production of Apollo Humanoid Robots and Deploy in Manufacturing Operations",
+    "publisher": "Jabil",
+    "author": "Jabil; Apptronik",
+    "publication_date": "2025-02-25",
+    "url": "https://investors.jabil.com/news/news-details/2025/Apptronik-and-Jabil-Collaborate-to-Scale-Production-of-Apollo-Humanoid-Robots-and-Deploy-in-Manufacturing-Operations/default.aspx",
+    "language": "English",
+    "source_type": "other",
+    "geographic_scope": [
+      "United States",
+      "Global"
+    ],
+    "quality_assessment": {
+      "depth_score": 3,
+      "data_quality_score": 4,
+      "primary_source_score": 5,
+      "reason_selected": "Clear contract-manufacturing relationship and factory-validation workflow."
+    },
+    "article_summary": "Documents a production partnership and pilot, without claiming completed global scale-up.",
+    "supply_chain_components": {
+      "motors": [],
+      "actuators": [
+        {
+          "player": "Apptronik",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "United States"
+          },
+          "role_in_supply_chain": "Actuators designed for manufacturability",
+          "significant_events": [],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "States that its newer actuator design reduces parts, manufacturing time and cost; no numerical saving or external supplier is disclosed."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Prioritizing Humanoid Scalability",
+          "confidence": "high"
+        }
+      ],
+      "precision_reducers": [],
+      "bearings": [],
+      "ball_and_roller_screws": [],
+      "encoders": [],
+      "sensors": [],
+      "dexterous_hands": [],
+      "batteries_and_power": [],
+      "semiconductors_and_compute": [],
+      "controllers_and_electronics": [],
+      "software_and_ai": [],
+      "manufacturing_and_assembly": [
+        {
+          "player": "Jabil",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "United States"
+          },
+          "role_in_supply_chain": "Worldwide Apollo manufacturing partner",
+          "significant_events": [
+            {
+              "date": "2025-02-25",
+              "event": "Announced Apollo production and factory-pilot collaboration.",
+              "significance": "Connects robot design to procurement, inventory and scalable manufacturing."
+            }
+          ],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [
+            "Apptronik is the named Apollo partner."
+          ],
+          "technical_or_strategic_information": [
+            "Factory trials include inspection, sorting, kitting and sub-assembly before broader deployment."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Opening announcement; worldwide manufacturing partner paragraph",
+          "confidence": "high"
+        }
+      ],
+      "full_robot_integration": [],
+      "machine_tools": [],
+      "testing_simulation_and_data": [],
+      "other": []
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn28view0\"}}"
+  },
+  {
+    "article_id": "A032",
+    "title_original": "Sanctuary AI Expands General Purpose Robot Footprint in Automotive Manufacturing Industry",
+    "title_english": "Sanctuary AI Expands General Purpose Robot Footprint in Automotive Manufacturing Industry",
+    "publisher": "Sanctuary AI; distributed by PR Newswire",
+    "author": "Sanctuary AI",
+    "publication_date": "2024-04-11",
+    "url": "https://www.prnewswire.com/news-releases/sanctuary-ai-expands-general-purpose-robot-footprint-in-automotive-manufacturing-industry-302114793.html",
+    "language": "English",
+    "source_type": "other",
+    "geographic_scope": [
+      "Canada",
+      "Global"
+    ],
+    "quality_assessment": {
+      "depth_score": 3,
+      "data_quality_score": 4,
+      "primary_source_score": 5,
+      "reason_selected": "Primary Canadian partnership disclosure connecting automotive manufacturing with humanoid development."
+    },
+    "article_summary": "Separates investment, manufacturing assessment and intended deployment from established production volumes.",
+    "supply_chain_components": {
+      "motors": [],
+      "actuators": [],
+      "precision_reducers": [],
+      "bearings": [],
+      "ball_and_roller_screws": [],
+      "encoders": [],
+      "sensors": [],
+      "dexterous_hands": [],
+      "batteries_and_power": [],
+      "semiconductors_and_compute": [],
+      "controllers_and_electronics": [],
+      "software_and_ai": [],
+      "manufacturing_and_assembly": [
+        {
+          "player": "Magna International",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "Canada"
+          },
+          "role_in_supply_chain": "Manufacturing engineering and prospective robot industrialization",
+          "significant_events": [
+            {
+              "date": "2024-04-11",
+              "event": "Announced an expanded Sanctuary AI partnership.",
+              "significance": "Includes deployment development, scalability assessment and equity investment."
+            }
+          ],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [
+            "Sanctuary AI is the named partner; Magna had invested since 2021."
+          ],
+          "technical_or_strategic_information": [
+            "Assessment uses automotive products, engineering and manufacturing capabilities; not an announced exclusive assembly contract."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Opening partnership description; investor-history paragraph",
+          "confidence": "high"
+        }
+      ],
+      "full_robot_integration": [
+        {
+          "player": "Sanctuary AI",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "Canada"
+          },
+          "role_in_supply_chain": "Phoenix humanoid and Carbon control-system integration",
+          "significant_events": [],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [
+            "Developing robots for potential use in Magna manufacturing operations."
+          ],
+          "technical_or_strategic_information": [
+            "Combines dexterous hands and its Carbon AI-control system."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Technology description; About Sanctuary AI",
+          "confidence": "high"
+        }
+      ],
+      "machine_tools": [],
+      "testing_simulation_and_data": [],
+      "other": []
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn30view4\"}}"
+  },
+  {
+    "article_id": "A033",
+    "title_original": "上銀首度參加台北國際電腦展 具有AI功能的雙臂八軸機器人在台首次正式亮相",
+    "title_english": "HIWIN Debuts at COMPUTEX Taipei, Unveiling an AI-Enabled Dual-Arm Eight-Axis Robot",
+    "publisher": "Commercial Times; reproduced by HIWIN",
+    "author": "沈美幸 (Shen Mei-hsing)",
+    "publication_date": "2026-06-02",
+    "url": "https://www.hiwin.tw/news_content.aspx?newsID=25582",
+    "language": "Chinese (Traditional)",
+    "source_type": "specialist media",
+    "geographic_scope": [
+      "Taiwan",
+      "United States"
+    ],
+    "quality_assessment": {
+      "depth_score": 3,
+      "data_quality_score": 4,
+      "primary_source_score": 4,
+      "reason_selected": "Names a Taiwanese precision-motion supplier and distinguishes humanoid modules from logistics robots."
+    },
+    "article_summary": "Reports new roller screws and in-house actuator integration; adjacent logistics and semiconductor applications are not conflated with humanoid shipments.",
+    "supply_chain_components": {
+      "motors": [],
+      "actuators": [
+        {
+          "player": "HIWIN Technologies",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "Taiwan"
+          },
+          "role_in_supply_chain": "Integrated linear and rotary actuator modules",
+          "significant_events": [],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Combines self-made screws, harmonic reducers, motors, drivers and controls."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Paragraph beginning 上銀表示，上銀展示核心技術驅動的人形機器人",
+          "confidence": "high"
+        }
+      ],
+      "precision_reducers": [],
+      "bearings": [],
+      "ball_and_roller_screws": [
+        {
+          "player": "HIWIN Technologies",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "Taiwan"
+          },
+          "role_in_supply_chain": "Planetary roller screws for robots",
+          "significant_events": [
+            {
+              "date": "2026-06-02",
+              "event": "Displayed newly developed robot planetary roller screws at COMPUTEX.",
+              "significance": "Product introduction, not proof of mass-production volume."
+            }
+          ],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Opening paragraph; roller-screw photograph caption",
+          "confidence": "high"
+        }
+      ],
+      "encoders": [],
+      "sensors": [],
+      "dexterous_hands": [
+        {
+          "player": "HIWIN Technologies",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Non-Chinese",
+            "country": "Taiwan"
+          },
+          "role_in_supply_chain": "AI-enabled grippers and end-effectors",
+          "significant_events": [],
+          "market_share_or_scale": [],
+          "customers_or_supplier_relationships": [
+            "Co-developed an intelligent gripper with Taiwan's Industrial Technology Research Institute."
+          ],
+          "technical_or_strategic_information": [
+            "An end-effector collaboration, not a named humanoid production-order disclosure."
+          ],
+          "competitive_position": "No comparable humanoid-specific market share disclosed.",
+          "evidence_location": "Paragraph discussing 工研院 collaboration",
+          "confidence": "high"
+        }
+      ],
+      "batteries_and_power": [],
+      "semiconductors_and_compute": [],
+      "controllers_and_electronics": [],
+      "software_and_ai": [],
+      "manufacturing_and_assembly": [],
+      "full_robot_integration": [],
+      "machine_tools": [],
+      "testing_simulation_and_data": [],
+      "other": []
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn32view3\"}}"
+  },
+  {
+    "article_id": "A034",
+    "title_original": "SAG: Global Humanoid Robot Shipments Surged 272% YoY to 19.1K Units in 1H 2026; AGIBOT Overtook Unitree for No. 1 Position",
+    "title_english": "SAG: Global Humanoid Robot Shipments Surged 272% YoY to 19.1K Units in 1H 2026; AGIBOT Overtook Unitree for No. 1 Position",
+    "publisher": "Smart Analytics Global",
+    "author": "Linda Sui",
+    "publication_date": "2026-08-10",
+    "url": "https://smartanalyticsglobal.com/global-humanoid-robot-shipments-2026-agibot-unitree/",
+    "language": "English",
+    "source_type": "industry report",
+    "geographic_scope": [
+      "Global",
+      "China",
+      "Europe",
+      "United States"
+    ],
+    "quality_assessment": {
+      "depth_score": 3,
+      "data_quality_score": 3,
+      "primary_source_score": 4,
+      "reason_selected": "Original analyst shipment estimates with named vendors and a defined reporting period."
+    },
+    "article_summary": "Estimates 19,100 global shipments in H1 2026. Coverage includes wheeled and bipedal designs, so totals are not a biped-only denominator. Public methodology remains limited.",
+    "supply_chain_components": {
+      "motors": [],
+      "actuators": [],
+      "precision_reducers": [],
+      "bearings": [],
+      "ball_and_roller_screws": [],
+      "encoders": [],
+      "sensors": [],
+      "dexterous_hands": [],
+      "batteries_and_power": [],
+      "semiconductors_and_compute": [],
+      "controllers_and_electronics": [],
+      "software_and_ai": [],
+      "manufacturing_and_assembly": [],
+      "full_robot_integration": [
+        {
+          "player": "AgiBot",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Chinese",
+            "country": "China"
+          },
+          "role_in_supply_chain": "Humanoid and wheeled embodied-robot integration",
+          "significant_events": [],
+          "market_share_or_scale": [
+            {
+              "value": "44%; SAG estimate",
+              "metric": "unit share",
+              "market_definition": "Share of SAG-tracked global humanoid shipments, including wheeled and bipedal designs",
+              "geography": "Global",
+              "year": "2026 H1",
+              "source_wording": "44% global shipment share"
+            }
+          ],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Estimated shipments: approximately 8,400 units in H1 2026."
+          ],
+          "competitive_position": "First in SAG's H1 2026 shipment ranking.",
+          "evidence_location": "Key Takeaways; AGIBOT Takes the Lead",
+          "confidence": "medium"
+        },
+        {
+          "player": "Unitree",
+          "player_type": "company",
+          "player_origin": {
+            "classification": "Chinese",
+            "country": "China"
+          },
+          "role_in_supply_chain": "Humanoid integration",
+          "significant_events": [],
+          "market_share_or_scale": [
+            {
+              "value": "31%; SAG estimate",
+              "metric": "unit share",
+              "market_definition": "Share of SAG-tracked global humanoid shipments, including wheeled and bipedal designs",
+              "geography": "Global",
+              "year": "2026 H1",
+              "source_wording": "31% global share"
+            }
+          ],
+          "customers_or_supplier_relationships": [],
+          "technical_or_strategic_information": [
+            "Estimated shipments: approximately 5,900 units in H1 2026."
+          ],
+          "competitive_position": "Second in the same ranking.",
+          "evidence_location": "AGIBOT Takes the Lead, Unitree paragraph",
+          "confidence": "medium"
+        }
+      ],
+      "machine_tools": [],
+      "testing_simulation_and_data": [],
+      "other": []
+    },
+    "source_citation": "genui{\"citation\":{\"ref\":\"turn33view2\"}}"
+  }
+]

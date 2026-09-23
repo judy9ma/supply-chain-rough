@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Humanoid Robotics Supply Chain</title>
+<meta name="description" content="An interactive map of who makes each part of a humanoid robot, and where China leads, contests, or depends on foreign suppliers.">
+<!-- Link previews on X, Substack, iMessage, etc.
+     After you publish on GitHub Pages, replace YOUR-USERNAME and REPO below
+     with your real address so the preview image shows up. -->
+<meta property="og:title" content="The Humanoid Robotics Supply Chain">
+<meta property="og:description" content="Who makes each part of a humanoid robot, and where China leads, contests, or depends.">
+<meta property="og:image" content="https://YOUR-USERNAME.github.io/REPO/og.jpg">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://YOUR-USERNAME.github.io/REPO/og.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <p class="eyebrow">Supply-Chain Atlas</p>
+    <h1 id="title">The Humanoid Robotics Supply Chain</h1>
+    <p class="sub" id="subtitle"></p>
+  </div>
+  <div class="top-controls">
+    <nav class="tabs" role="tablist" aria-label="View">
+      <button role="tab" id="tab-anatomy" aria-selected="true" data-view="anatomy">Anatomy</button>
+      <button role="tab" id="tab-segments" aria-selected="false" data-view="segments">Segments</button>
+      <button role="tab" id="tab-timeline" aria-selected="false" data-view="timeline">Timeline</button>
+      <button role="tab" id="tab-sources" aria-selected="false" data-view="sources">Sources</button>
+    </nav>
+    <ul class="legend" aria-label="China's position">
+      <li><span class="dot s-china-leads"></span>China Leads</li>
+      <li><span class="dot s-contested"></span>Contested</li>
+      <li><span class="dot s-foreign-led"></span>Foreign-Led</li>
+    </ul>
+  </div>
+</header>
+
+<main class="layout">
+  <section class="stage" aria-label="Rotatable humanoid robot">
+    <div class="edit-banner" id="edit-banner" hidden>
+      <strong>Placement mode.</strong> Turn the robot, then click any spot on it to get a label line for <code>data.js</code>.
+    </div>
+    <div class="viewport" id="viewport">
+      <div class="floor-shadow"></div>
+      <img id="robot" class="robot" alt="Humanoid robot, rotatable" src="frames/f000.webp" draggable="false" width="720" height="960">
+      <svg class="leaders" id="leaders" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"></svg>
+      <div class="pins" id="pins"></div>
+      <div class="drag-hint" id="drag-hint">Drag to rotate</div>
+    </div>
+    <div class="stage-bar">
+      <button class="icon-btn" id="rot-left" aria-label="Rotate left">&#8592;</button>
+      <div class="presets" role="group" aria-label="Preset views">
+        <button data-frame="0">Front</button>
+        <button data-frame="18">Side</button>
+        <button data-frame="36">Back</button>
+      </div>
+      <span class="angle" id="angle">0°</span>
+      <button class="icon-btn" id="rot-right" aria-label="Rotate right">&#8594;</button>
+    </div>
+    <div class="place-card" id="place-card" hidden></div>
+  </section>
+
+  <section class="panel" id="panel" aria-live="polite"></section>
+</main>
+
+<footer class="foot">
+  <span id="updated"></span>
+  <span>Robot renders from a licensed 3D model; the model file itself is not included.</span>
+</footer>
+
+<script src="data.js"></script>
+<script src="sources-data.js"></script>
+<script src="depth.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
